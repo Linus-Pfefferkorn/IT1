@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+    
+}
+main{
+    background-color: coral ;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: aqua;
+    background-image: url("https://media.tenor.com/M1z8DYZXVjkAAAAd/wallpaper.gif");
+}
+article{
+    background-color: red;
+}
+
+nav{
+    background-color: yellow;
+}
+
+aside{
+    background-color: green;
+}
+
+footer{
+    background-color: blue;
+}
+
+header, nav, article, aside, footer, main{
+    border-color:black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+@media all and (min-width: 40em){
+    main {
+        flex-direction: row;
+    }
+}
+
+button{
+display: flex;
+align-items: center;
+justify-content: center;
+}
